@@ -1,0 +1,33 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.info {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;  
+    position: fixed;
+    top: 5vh;
+    align-content: center;
+    color: white;
+    font-size: 3vh;
+    position: absolute;
+}
+
+h2 {
+    padding: .5vh;
+    margin: 0;
+}
+h3 {
+    padding: .5vh;;
+    margin: 0;
+}
+
