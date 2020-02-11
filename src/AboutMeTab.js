@@ -1,8 +1,9 @@
 import React from 'react';
+import './AboutMe.css';
 function AboutMeTab (props)
 {
     return (
-        <div>
+        <div className="about">
      
         <div className="aboutme">
             <h3>About Me</h3>
@@ -11,11 +12,13 @@ function AboutMeTab (props)
         </div>
         <div>
             <h3>Hobbies</h3>
-            <ul className = "hobbies">
-                <li className="piano">I grew up taking piano lessons and I took 10 or so years of piano lessons. Growing up it wasn't alway fun but that I am older I enjoy sitting down and playing the piano more.</li>
+            <ol className = "hobbies">
+                <li className="piano">I grew up taking piano lessons. Growing up it wasn't always fun but now that I am older I enjoy sitting down and playing the piano more.</li>
                 <li className="hiking">I don't go hiking very often but I enjoy it when I do. I like spending time in the nature and get away from all the noise.</li>
                 <li className="watching">I enjoy watching movies. I do that often because its cheap and fun to do. I enjoy comedy, action, and most genres of movies.s</li>
-            </ul>
+                <li className="excercise">I have recently started going to the gym and working out. I am really enjoying it and like the energy it brings.</li>
+                <li className="decorating">I also recently started decorationg cakes and find it a enjoyable hobby to start.</li>
+            </ol>
         </div>
         <div>
             

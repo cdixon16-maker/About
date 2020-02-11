@@ -10,6 +10,7 @@ import './App.css';
 import Header from './Header';
 import './Header.css';
 import AboutMeTab from './AboutMeTab';
+import './AboutMe.css';
 import EducationandExperience from './EducationandExperience';
 import Portfolio from './Portfolio';
 

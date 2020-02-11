@@ -1,0 +1,10 @@
+.about {
+ margin: 5vh;
+text-align: center;
+font-size: larger;
+color: black;
+}
+
+.hobbies {
+ list-style-type: square;
+}
