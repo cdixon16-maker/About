@@ -6,5 +6,6 @@ color: black;
 }
 
 .hobbies {
- list-style-type: square;
+ list-style-type: none;
+ text-align: center;
 }

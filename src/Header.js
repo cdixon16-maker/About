@@ -9,11 +9,9 @@ import {
 function Header(props)
 {
     return (
-    
         <div className="info">
         <h2> Chase Dixon</h2> 
-        <h3>Phone: 801-864-9875</h3>
-        <h3>Email: schasedixon16@gmail.com </h3>
+      
         <ul className="list">
           <li className="Portfolio">
             <Link to="/">Portfolio</Link>

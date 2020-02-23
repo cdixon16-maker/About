@@ -13,11 +13,10 @@ function AboutMeTab (props)
         <div>
             <h3>Hobbies</h3>
             <ol className = "hobbies">
-                <li className="piano">I grew up taking piano lessons. Growing up it wasn't always fun but now that I am older I enjoy sitting down and playing the piano more.</li>
-                <li className="hiking">I don't go hiking very often but I enjoy it when I do. I like spending time in the nature and get away from all the noise.</li>
-                <li className="watching">I enjoy watching movies. I do that often because its cheap and fun to do. I enjoy comedy, action, and most genres of movies.s</li>
-                <li className="excercise">I have recently started going to the gym and working out. I am really enjoying it and like the energy it brings.</li>
-                <li className="decorating">I also recently started decorationg cakes and find it a enjoyable hobby to start.</li>
+                <li className="piano">I play the piano</li>
+                <li className="hiking">I enjoy going on hikes</li>
+                <li className="watching">I enjoy watching movies.</li>
+                <li className="excercise"> I enjoying working out</li>
             </ol>
         </div>
         <div>
