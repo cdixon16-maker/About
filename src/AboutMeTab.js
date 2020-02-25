@@ -16,7 +16,7 @@ function AboutMeTab (props)
                 <li className="piano">I play the piano</li>
                 <li className="hiking">I enjoy going on hikes</li>
                 <li className="watching">I enjoy watching movies.</li>
-                <li className="excercise"> I enjoying working out</li>
+                <li className="excercise"> I enjoy working out</li>
             </ol>
         </div>
         <div>

@@ -13,6 +13,7 @@ import AboutMeTab from './AboutMeTab';
 import './AboutMe.css';
 import EducationandExperience from './EducationandExperience';
 import Portfolio from './Portfolio';
+import Contactme from './contactme';
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/Aboutme">
             <AboutMeTab />
+          </Route>
+          <Route path="/Contactme">
+            <Contactme />
           </Route>
           <Route path="/">
             <Portfolio />

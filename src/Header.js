@@ -22,6 +22,9 @@ function Header(props)
           <li className="About">
             <Link to="/Aboutme">About Me</Link>
           </li>
+          <li className="Contact">
+            <Link to="/contactme">Contact Me</Link> 
+            </li>
           </ul>
         
         </div>
