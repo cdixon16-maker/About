@@ -1,11 +1,32 @@
-.about {
- margin: 5vh;
-text-align: center;
-font-size: larger;
-color: black;
+.aboutme {
+    margin: 5vh;
+    margin-top: 2rem;
+    width: 80rem;
+   font-size: larger;
+   color: black;
 }
 
+img {
+   border-radius: 15%;
+   text-align:center;
+   width:100%;
+   display:block;
+   margin:auto;
+   width: auto;
+   height: auto;
+}
+
+@media only screen and (min-width: 300px ) and (max-width: 600px) {
+   
+   .aboutme {
+      width: 100;
+   }
+   .hobbies {
+      text-align: center;
+   }
+}
 .hobbies {
  list-style-type: none;
  text-align: center;
+ 
 }

@@ -1,26 +1,26 @@
 import React from 'react';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
-import logo from './logo.svg';
-import './App.css';
-import Header from './Header';
-import './Header.css';
+import AppNavBar from './AppNavBar';
 import AboutMeTab from './AboutMeTab';
 import './AboutMe.css';
 import EducationandExperience from './EducationandExperience';
 import Portfolio from './Portfolio';
-import Contactme from './contactme';
+import Contactme from './Contactme';
 
 
 function App() {
   return (
     <Router>
       <div className="App">
-    <Header />
+    <AppNavBar />
     <Switch>
           <Route path="/EducationandExperience">
             <EducationandExperience />
