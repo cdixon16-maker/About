@@ -1,8 +1,12 @@
 .NavLink {
  display: flex;
  flex-wrap: nowrap;
+ color: white;
 }
 
 nav {
     width: 100%;
+}
+.mb-5 {
+    color: white;
 }

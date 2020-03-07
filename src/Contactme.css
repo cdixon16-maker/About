@@ -1,0 +1,24 @@
+.contact {
+    text-align: center;
+    
+}
+
+body {
+   background-color: black;
+   color: white;
+}
+
+.youtube-embed {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 56%;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .youtube-embed iframe {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+  }

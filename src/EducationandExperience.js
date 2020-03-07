@@ -1,6 +1,6 @@
 import React from 'react';
-
- import "./EducationandExperience.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./EducationandExperience.css";
 
 
 function EducationandExperience(props)
