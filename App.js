@@ -8,12 +8,12 @@ import {
   Route,
   
 } from "react-router-dom";
-import AppNavBar from './AppNavBar';
-import AboutMeTab from './AboutMeTab';
+import AppNavBar from './src/AppNavBar';
+import AboutMeTab from './src/AboutMeTab';
 import './AboutMe.css';
-import EducationandExperience from './EducationandExperience';
-import Portfolio from './Portfolio';
-import Contactme from './Contactme';
+import EducationandExperience from './src/EducationandExperience';
+import Portfolio from './src/Portfolio';
+import Contactme from './src/Contactme';
 
 
 function App() {
