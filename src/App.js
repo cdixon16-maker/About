@@ -1,19 +1,16 @@
 import React from 'react';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  
+  Route
 } from "react-router-dom";
-import AppNavBar from './src/AppNavBar';
-import AboutMeTab from './src/AboutMeTab';
+import AppNavBar from './AppNavBar';
+import AboutMeTab from './AboutMeTab';
 import './AboutMe.css';
-import EducationandExperience from './src/EducationandExperience';
-import Portfolio from './src/Portfolio';
-import Contactme from './src/Contactme';
+import EducationandExperience from './EducationandExperience';
+import Portfolio from './Portfolio';
+import Contactme from './Contactme.js';
 
 
 function App() {
