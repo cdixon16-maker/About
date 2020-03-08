@@ -26,4 +26,4 @@ function contactme()
 
 
 
-export default contactme;
+export default Contactme;
