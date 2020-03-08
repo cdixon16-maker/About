@@ -10,7 +10,7 @@ import AboutMeTab from './AboutMeTab';
 import './AboutMe.css';
 import EducationandExperience from './EducationandExperience';
 import Portfolio from './Portfolio';
-import Contactme from './contactme';
+import Contactme from './Contact';
 
 
 function App() {

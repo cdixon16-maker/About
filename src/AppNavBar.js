@@ -46,7 +46,7 @@ class AppNavbar extends Component {
                             <NavLink href="./AboutMe">About Me</NavLink>
                             </NavItem>
                             <NavItem>
-                            <NavLink href="/Contactme">Contact Me</NavLink>
+                            <NavLink href="/Contact">Contact Me</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
