@@ -19,7 +19,7 @@ img {
 @media only screen and (min-width: 300px ) and (max-width: 600px) {
    
    .aboutme {
-      width: 100;
+      width: auto;
    }
    .hobbies {
       text-align: center;

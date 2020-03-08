@@ -1,6 +1,5 @@
-.contact {
-    text-align: center;
-    
+.me {
+    text-align: center;  
 }
 
 body {
@@ -8,17 +7,30 @@ body {
    color: white;
 }
 
-.youtube-embed {
-    position: relative;
-    padding-top: 10%;
-    padding-bottom: 56%;
-    width: 100%;
-    text-align: left;
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 15;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+@media only screen and (min-width: 300px ) and (max-width: 600px) {
+  .videoWrapper iframe {
+    width: auto;
+    height: auto;
   }
+}
   
-  .youtube-embed iframe {
-    width: 100%;
-    position: absolute;
-    height: 100%;
-    overflow: hidden;
-  }
+  
+
+  
+ 
