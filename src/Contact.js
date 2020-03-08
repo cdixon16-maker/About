@@ -2,7 +2,7 @@ import React from 'react';
 import './Contactme.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function contact()
+function Contact()
 { return (
     <div className="contact">
     <div className="me">
