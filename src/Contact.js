@@ -2,7 +2,7 @@ import React from 'react';
 import './Contactme.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function contactme()
+function contact()
 { return (
     <div className="contact">
     <div className="me">
@@ -26,4 +26,4 @@ function contactme()
 
 
 
-export default Contactme;
+export default Contact;
