@@ -36,16 +36,16 @@ class AppNavbar extends Component {
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="mx-auto" navbar>
-                            <NavItem>
+                            <NavItem className="pr-5">
                             <NavLink className ="Portfolio" href="/">Portfolio</NavLink>
                             </NavItem>
-                            <NavItem>
-                            <NavLink href="/EducationandExperience">Education and Experience</NavLink>
+                            <NavItem className="pr-5">
+                            <NavLink href="/EducationandExperience">Experience and Education</NavLink>
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="pr-5">
                             <NavLink href="./AboutMe">About Me</NavLink>
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="pr-5">
                             <NavLink href="/Contact">Contact Me</NavLink>
                             </NavItem>
                         </Nav>
