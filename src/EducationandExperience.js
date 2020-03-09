@@ -27,9 +27,9 @@ function EducationandExperience(props)
             <h4>Accounting Clerk</h4>  
             <p>Jordan Credit Union</p>  
             <p>February 2018 to August 2019</p> 
-            <p>Responsibilities include managing payments for 25 suppliers, tracking Small Business Administration (SBA) payments, remitting escrow payments on behalf of mortgage customers, reviewing general ledgers and ensuring they are balanced and transactions are correctly posted. </p>,
+            <p>Responsibilities include managing payments for 25 suppliers, tracking Small Business Administration (SBA) payments, remitting escrow payments on behalf of mortgage customers, reviewing general ledgers and ensuring they are balanced and transactions are correctly posted. </p>
             </div>,
-            open: false,
+            open: false
         },
         {
             title: <h4>Education</h4>,
