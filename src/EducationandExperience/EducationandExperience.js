@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./EducationandExperience.css";
-import Job from './Job';
+import Job from '../Job';
 
 
 function EducationandExperience(props)

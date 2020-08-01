@@ -5,12 +5,11 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import AppNavBar from './AppNavBar';
-import AboutMeTab from './AboutMeTab';
-import './AboutMe.css';
-import EducationandExperience from './EducationandExperience';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
+import AppNavBar from './NavBar/AppNavBar';
+import AboutMeTab from './Aboutme/AboutMeTab';
+import EducationandExperience from './EducationandExperience/EducationandExperience';
+import Portfolio from './Portfolio/Portfolio';
+import Contact from './Contactme/Contact';
 
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
           <Route path="/EducationandExperience">
             <EducationandExperience />
           </Route>
-          <Route path="/Aboutme">
+          <Route path="/AboutMeTab">
             <AboutMeTab />
           </Route>
           <Route path="/Contact">

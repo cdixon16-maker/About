@@ -29,10 +29,11 @@ class AppNavbar extends Component {
 
     render() {
         return (
+
         <div className="navigation">
             <Navbar color="secondary" dark expand="sm" className="mb-5">
                 <Container>
-                    <NavbarBrand href="./AboutMe">Chase Dixon</NavbarBrand>
+                    <NavbarBrand href="./AboutMeTab">Chase Dixon</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="mx-auto" navbar>
@@ -43,7 +44,7 @@ class AppNavbar extends Component {
                             <NavLink href="/EducationandExperience">Experience and Education</NavLink>
                             </NavItem>
                             <NavItem className="pr-5">
-                            <NavLink href="./AboutMe">About Me</NavLink>
+                            <NavLink href="./AboutMeTab">About Me</NavLink>
                             </NavItem>
                             <NavItem className="pr-5">
                             <NavLink href="/Contact">Contact Me</NavLink>

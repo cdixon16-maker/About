@@ -6,7 +6,7 @@ function AboutMeTab (props)
     return (
         <div>
         <div className="pic">
-            <img src = "./Images/My photo.jpeg" alt="My Pic" />
+            <img src = "../Images/My photo.jpeg" alt="My Pic" />
         </div>
      
         <div className="aboutme">
